@@ -1,7 +1,7 @@
 # https://github.com/Tiiiger/bert_score
 # https://huggingface.co/spaces/evaluate-metric/bertscore
 # 下载模型放在同级目录下
-# 手动修改加载本地模型：get_tokenizer()   model_path="/data0/lizhong/models/roberta-large"
+# 手动修改加载本地模型：get_tokenizer(model_path), get_model(model_path)   model_path="/data0/lizhong/models/roberta-large" 
 
 
 # pip install bert-score
